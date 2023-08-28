@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Mubin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mubin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hi,I'm Md. Mubin</h2>
+                <p class="hero_desc">I am a from Kolkata,India</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="images/IMG20191005121416.jpg" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <p>I am Md Mubin, from Kolkata, India. I am a passionate and creative web developer with a keen interest in building user-friendly and responsive websites. I also have critical problem solving skills with good understanding of Data Structures and Algorithms. I am looking for internship opportunities to enhance my skills and to look forward in my career as a software Developer Engineer . </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Frontend development with good command of <em>HTML,<br>CSS, JavaScript</em>  along with sound knowledge of<br> <em>Bootstrap framework </em>and <em>jQuery library</em>.</li>
+                        <li><span>Programming Languages</span><br>Have a strong hold in <em>C/C++</em> with sound knowledge<br>of <em>Java</em> and <em>Python</em></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>B.Tech. Computer Science Engineering<br>Aliah University, NewTown Kolkata.</li>
+
+                        <li><span>2008-2021</span><br>K.G-12th<br>Grace Ling Liang English School, Kolkata</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">My Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Screenshot 2023-08-27 200300.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Spotify Clone</h4>
+                            <p class="card-text">A clone website page for Spotify Web player </p>
+                            <div class="text-center">
+                                <a href="https://mubin05.github.io/Spotify-Clone/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Simon Says Game.png" alt="Card image" style="width:50%" >
+                        <div class="card-body">
+                            <h4 class="card-title">Simon Says Game</h4>
+                            <p class="card-text">This is a simple memory game built to test your memory.</p>
+                            <div class="text-center">
+                                <a href="https://mubin05.github.io/SimonSayGame/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card ">
+                        <img class="card-img-top" src="images/landing_page.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Landing Page</h4>
+                            <p class="card-text"></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/calculator-math-finance-in-purple-background-vector-31096222.jpg" alt="Card image" style="width:46%">
+                        <div class="card-body">
+                            <h4 class="card-title">Calculator</h4>
+                            <p class="card-text">I made this simple calculator using core web technologies:HTML, CSS, Javascript. This calculator can perform basic mathematical operations like addition, substraction, multiplication and division.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolio.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Portfolio</h4>
+                            <p class="card-text">Personal resume website made for showcasing my skills and my projects.Tech used - HTML, CSS, Javascript, Bootstrap.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <hr>
+    <!-- contact section-->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4" style="justify-content: center;">
+            <div class="col-lg-6" >
+                <!-- form fields -->
+                <form action="">
+                    <input type="text" class="form-control form-control-lg" placeholder="Your Name" required>
+                    <input type="email" class="form-control mt-3" placeholder="Your Email" required>
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Your Message"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/md.mubin.585" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/its_mubin_official/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/md-mubin-117a2920b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="script/script.js"></script>
+    
+
+</body>
+
+</html>
